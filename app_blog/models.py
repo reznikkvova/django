@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from django.utils import timezone
 
 from django.urls import reverse
@@ -30,7 +28,7 @@ class Category(models.Model):
         try:
             url = reverse('articles-category-list', kwargs={'slug': self.category})
         except:
-            url = "/"
+            url = '/'
         return url
 
 class Article(models.Model):

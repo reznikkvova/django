@@ -6,8 +6,8 @@
     </head>
     <body>
     Категорії
-    {% if categories %}
-    {% for item in categories %}
+    {% if all_categories %}
+    {% for item in all_categories %}
     <div>
          <a href="{{ item.get_absolute_url }}">
             <h4>{{ item.category }}</h4>
