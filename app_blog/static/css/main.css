@@ -1,0 +1,136 @@
+@import
+url(‘https://fonts.googleapis.com/css?family=Ubuntu’);
+@media (max-width: 480px) {
+ h1 {
+ font-size: 18px;
+ }
+}
+body {
+ background: white;
+}
+body {
+ background-image: url('../img/bg.png');
+ background-repeat: repeat-y;
+ background-size: cover;
+}
+
+
+body a:hover, body a:visited, body a:active {
+ color: white;
+ text-decoration: underline;
+}
+div > h1 {
+ color: #fff;
+ font-family: ‘Ubuntu’, sans-serif;
+}
+body > div > nav > div > a > h4 {
+ color: #fff;
+ font-family: ‘Ubuntu’, sans-serif;
+}
+.article-block {
+ background: #fff;
+ color: #383838;
+ font-family: ‘Ubuntu’, sans-serif;
+ box-shadow: 2px 2px 1px #ccc;
+ padding: 10px;
+ margin: 10px;
+}
+.article-block a {
+ color: #383838;
+ font-family: ‘Ubuntu’, sans-serif;
+}
+body > div > div > ol > li {
+ margin: 0 5px;
+}
+div.container-image > img {
+ width: 100%;
+}
+
+header.header, footer.footer {
+ width: 100%;
+ background: #032e42;
+}
+
+.blog-title {
+ color: white;
+ text-align: center;
+ padding: 10px 0;
+}
+
+.text-overflow {
+ max-width: 18%;
+}
+
+.text-overflow > h4 {
+  text-overflow: ellipsis;
+ overflow: hidden;
+ white-space: nowrap;
+}
+
+navbar {
+ border-bottom: 1px solid #032e42;
+}
+
+.category-link {
+ color: white;
+}
+
+.category-link:hover {
+ color: white;
+
+}
+
+ol.breadcrumb {
+ background: #032e42;
+ color: white;
+}
+
+ol.breadcrumb > li {
+ color: white;
+}
+
+ol.breadcrumb > li > a:hover, ol.breadcrumb > li > a:active, ol.breadcrumb > li > a:visited {
+ color: white;
+}
+
+ol.breadcrumb > li:last-child {
+ text-decoration: underline;
+}
+
+.article-list__item {
+ margin: 20px 0;
+ padding: 10px;
+ background: #9cacbf;
+ border-radius: 10px;
+}
+
+.article-list__item  h5, .article-list__item  h5 > p {
+ color: #2b6684;
+}
+
+.article-list__item > a, .article-list__item h4 {
+ color: white;
+}
+
+.article-list__item > p {
+ color: #0a1417;
+}
+
+.to-home {
+ background: #032e42;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.to-home  h4 {
+ text-align: center;
+ margin: 0;
+}
+
+.to-home a {
+ color: white;
+}
+
+footer {
+ margin: 100px 0 0;
+}
